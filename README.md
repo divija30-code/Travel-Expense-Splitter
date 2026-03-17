@@ -1,23 +1,34 @@
-💸 Multi-User Travel Expense Splitter with Transaction Tracking
-A functional programming project built with Haskell that simplifies group travel expense management. No more confusion over who paid what — just enter the expenses and let the program handle the math!
-📌 About the Project
-When travelling in groups, different people pay for different things — food, cab, hotel, shopping and so on. This tool helps you:
+# 💸 Multi-User Travel Expense Splitter with Transaction Tracking
 
-Record multiple expenses across multiple users
-Track who paid for what and how much
-Calculate the total contribution of each person
-Split the total cost equally among all members
-Display the final settlement — who owes whom
+A functional programming project built with **Haskell** that simplifies group travel 
+expense management. No more confusion over who paid what — just enter the expenses 
+and let the program handle the math!
 
-Built using Haskell as part of the Principles of Functional Language (23CSE212) course at Amrita Vishwa Vidyapeetham, Nagercoil.
+## 📌 About the Project
 
-🛠️ Tech Stack
-Language: Haskell
-Compiler: GHC (Glasgow Haskell Compiler)
-Key Concepts: Data.Map, higher-order functions, pure functions, immutable data, foldl
+When travelling in groups, different people pay for different things — food, cab, 
+hotel, shopping and so on. This tool helps you:
 
-🚀 How to Run
-bash# Compile the program
+- Record multiple expenses across multiple users
+- Track who paid for what and how much
+- Calculate the total contribution of each person
+- Split the total cost **equally** among all members
+- Display the **final settlement** — who owes whom
+
+Built using **Haskell** as part of the *Principles of Functional Language (23CSE212)* 
+course at **Amrita Vishwa Vidyapeetham, Nagercoil**.
+
+## 🛠️ Tech Stack
+
+| Component | Details |
+|-----------|---------|
+| Language | Haskell |
+| Compiler | GHC (Glasgow Haskell Compiler) |
+| Key Concepts | `Data.Map`, higher-order functions, pure functions, immutable data, `foldl` |
+
+## 🚀 How to Run
+```bash
+# Compile the program
 ghc -o expense_splitter main.hs
 
 # Run the program
@@ -42,17 +53,21 @@ Person C paid total ₹5900
 A receives money
 B pays A
 C pays A
+```
 
-🔮 Future Enhancements
-Add a GUI or web interface
-Support unequal/percentage-based splitting
-Persistent storage using files or a database
-Mobile application version
+## 🔮 Future Enhancements
 
-👩‍💻 Author
-P. Durga Divija Sri Sai
-B.Tech CSE, IV Semester
+- Add a GUI or web interface
+- Support unequal/percentage-based splitting
+- Persistent storage using files or a database
+- Mobile application version
+
+## 👩‍💻 Author
+
+**P. Durga Divija Sri Sai**  
+B.Tech CSE, IV Semester  
 Amrita Vishwa Vidyapeetham, Nagercoil
 
+---
 
-"Splitting bills, not friendships." 😄
+> *"Splitting bills, not friendships."* 😄
